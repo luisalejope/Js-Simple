@@ -23,6 +23,6 @@ let busqueda = texto1.indexOf("curso");
     //Buscar el final de un string (True / false)
     busqueda = texto1.endsWith("curso");
     //Buscar una palabra dentro del string (True / false)
-    busqueda = texto1.includes("curso");
-    
+    busqueda = texto1.includes("al");
+
 console.log(busqueda);
