@@ -6,6 +6,8 @@
 //callbakc:
 // Es una funcion que se ejecuta dentro de otra
 
+//funcion flecha: se sustituye la palabra fucntion por =>
+
 function sumame(numero1, numero2, sumaYmuestra, sumaPorDos) {
     let sumar = numero1+numero2;
 
@@ -16,8 +18,8 @@ function sumame(numero1, numero2, sumaYmuestra, sumaPorDos) {
 
 }
 
-sumame(5, 7, function (dato) {
+sumame(5, 7,  dato => {
     console.log("La suma es:", dato);
-}, function (dato) {
+}, dato => {
     console.log("La suma por dos es:", (dato*2));
 })
