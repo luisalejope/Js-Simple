@@ -12,7 +12,7 @@ let busqueda = texto1.indexOf("curso");
     busqueda = texto1.search("curso");
     //devuelve un array
     busqueda = texto1.match("curso");
-    //devuelve dos un array con todas las coincidencias
+    //devuelve un array con todas las coincidencias
     busqueda = texto1.match(/curso/g);
     //devuelve el texto que esta en el caracter colocado y la cantidad de caracteres despues
     busqueda = texto1.substr(14, 5);
