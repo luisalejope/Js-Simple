@@ -8,9 +8,14 @@ let pelicula = {
     pais: 'estados unidos'
 };
 
-let peliculas = new Array(pelicula)
+let peliculas = new Array(
+    {titulo: 'spiderman', 
+    year: 2005,
+    pais: 'estados unidos'},
+    
+    pelicula);
 
 //para acceder a una propiedad. poner pelicula.titulo
 
 pelicula.titulo="Superman begins";
-console.log(pelicula)
+console.log(peliculas)
